@@ -1,7 +1,7 @@
 using BMHCSDL.Models;
 using Microsoft.AspNetCore.Mvc;
 using Oracle.ManagedDataAccess.Client;
-
+using BMHCSDL.Data;
 namespace BMHCSDL.Controllers;
 public class Account : Controller
 {
@@ -40,11 +40,12 @@ public class Account : Controller
 
             try
             {
-                string createUserCommand = $"CREATE USER \"{model.UserId.ToUpper()}\" IDENTIFIED BY \"{model.Password}\"";
+                string encryptedPassword = Caesar.CaesarEncrypt(model.Password, 3);
+                string createUserCommand = $"CREATE USER \"{model.UserId.ToUpper()}\" IDENTIFIED BY \"{encryptedPassword}\"";
 
                 using (var command = new OracleCommand(createUserCommand, connection))
                 {
-                    command.Parameters.Add(new OracleParameter("password", model.Password));
+                    command.Parameters.Add(new OracleParameter("password", encryptedPassword));
                     await command.ExecuteNonQueryAsync();
                 }
                 await GrantUserPermissions(model.UserId.ToUpper());
@@ -121,30 +122,20 @@ public class Account : Controller
         }
 
         string connectionStringTemplate = _configuration.GetConnectionString("Oracle");
-        string connectionString = string.Format(connectionStringTemplate, model.userId, model.Password);
+        string DecryptString = Caesar.CaesarEncrypt(model.Password, 3);
+        string connectionString = string.Format(connectionStringTemplate, model.userId, DecryptString);
         if (model.userId.Equals("SYS", StringComparison.OrdinalIgnoreCase))
         {
             connectionString += ";DBA Privilege=SYSDBA";
         }
-
         try
         {
-            string OracleString = _configuration.GetConnectionString("OracleSys");
-            using (var connection = new OracleConnection(OracleString))
+            using (var connection = new OracleConnection(connectionString))
             {
                 connection.Open();
 
-                string roleQuery = @"
-                SELECT DISTINCT 
-                    u.username,
-                    r.granted_role
-                FROM 
-                    dba_users u
-                LEFT JOIN 
-                    dba_role_privs r ON u.username = r.grantee
-                WHERE 
-                    u.username = :userId";
-
+                string roleQuery = @"SELECT *
+                                    FROM USER_ROLE_PRIVS";
                 using (var command = new OracleCommand(roleQuery, connection))
                 {
                     command.Parameters.Add(new OracleParameter("userId", model.userId.ToUpper()));
@@ -161,13 +152,12 @@ public class Account : Controller
 
                 var commandDate = new OracleCommand("SELECT SYSDATE FROM dual", connection);
                 commandDate.ExecuteScalar();
-
-                return RedirectToAction("Index", "Home");
             }
         }
+
         catch (OracleException ex)
         {
-            ModelState.AddModelError(string.Empty, "Đăng nhập không thành công: " + ex.Message);
+            ModelState.AddModelError(string.Empty, "Đăng nhập không thành công");
             return View(model);
         }
         catch (Exception ex)
@@ -175,6 +165,7 @@ public class Account : Controller
             ModelState.AddModelError(string.Empty, "Đã xảy ra lỗi: " + ex.Message);
             return View(model);
         }
+        return RedirectToAction("Index", "Home");
     }
 
 

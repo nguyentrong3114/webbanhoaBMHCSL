@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Qzw7OIKw5ivPTsdw2aZFAv1Gvxb+jsxs/8tib6mv8vo=",
+  "Hash": "H+GIp9qeWiYGywcVEyyYXOVev5eBLcyxPHwYUjwbRJw=",
   "Source": "BMHCSDL",
   "BasePath": "_content/BMHCSDL",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BMHCSDL\\wwwroot",
       "Source": "BMHCSDL",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Project\\BMHCSDL\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BMHCSDL.styles.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BMHCSDL.styles.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "BMHCSDL.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Project\\BMHCSDL\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BMHCSDL.styles.css"
+      "OriginalItemSpec": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BMHCSDL.styles.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BMHCSDL.bundle.scp.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BMHCSDL.bundle.scp.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "BMHCSDL.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Project\\BMHCSDL\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BMHCSDL.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BMHCSDL.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\css\\Account.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\css\\Account.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "css/Account.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Account.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\css\\DashBoard.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\css\\DashBoard.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "css/DashBoard.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\DashBoard.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\css\\ManageAccount.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\css\\ManageAccount.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "css/ManageAccount.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\ManageAccount.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\css\\site.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\favicon.ico",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\js\\site.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\all.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\all.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/css/all.css",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\all.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/css/all.min.css",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\all.min.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\brands.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\brands.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/css/brands.css",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\brands.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/css/brands.min.css",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\brands.min.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/css/fontawesome.css",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\fontawesome.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/css/fontawesome.min.css",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\regular.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\regular.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/css/regular.css",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\regular.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/css/regular.min.css",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\regular.min.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\solid.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\solid.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/css/solid.css",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\solid.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/css/solid.min.css",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\solid.min.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/css/svg-with-js.css",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\svg-with-js.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/css/svg-with-js.min.css",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/css/v4-font-face.css",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v4-font-face.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/css/v4-font-face.min.css",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/css/v4-shims.css",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v4-shims.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/css/v4-shims.min.css",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/css/v5-font-face.css",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v5-font-face.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/css/v5-font-face.min.css",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\all.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\all.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/js/all.js",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\all.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/js/all.min.js",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\all.min.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\brands.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\brands.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/js/brands.js",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\brands.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/js/brands.min.js",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\brands.min.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/js/conflict-detection.js",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\conflict-detection.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/js/conflict-detection.min.js",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/js/fontawesome.js",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\fontawesome.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/js/fontawesome.min.js",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\regular.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\regular.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/js/regular.js",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\regular.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/js/regular.min.js",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\regular.min.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\solid.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\solid.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/js/solid.js",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\solid.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/js/solid.min.js",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\solid.min.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/js/v4-shims.js",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\v4-shims.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/js/v4-shims.min.js",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/sprites/brands.svg",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\sprites\\brands.svg"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/sprites/regular.svg",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\sprites\\regular.svg"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/sprites/solid.svg",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\sprites\\solid.svg"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/webfonts/fa-brands-400.ttf",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/webfonts/fa-brands-400.woff2",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/webfonts/fa-regular-400.ttf",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/webfonts/fa-regular-400.woff2",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/webfonts/fa-solid-900.ttf",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/webfonts/fa-solid-900.woff2",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/webfonts/fa-v4compatibility.ttf",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/font-awesome/webfonts/fa-v4compatibility.woff2",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1917,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1936,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1974,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1993,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2031,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2050,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\Project\\BMHCSDL\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "BMHCSDL",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\BMHCSDL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\maith\\Downloads\\Project\\BMHCSDL\\wwwroot\\",
       "BasePath": "_content/BMHCSDL",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

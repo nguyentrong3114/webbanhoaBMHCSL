@@ -1,0 +1,131 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BMHCSDL
+build_property.RootNamespace = BMHCSDL
+build_property.ProjectDir = C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Areas/Admin/Views/AdminDashBoard/CustomerDashBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5EYXNoQm9hcmRcQ3VzdG9tZXJEYXNoQm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Areas/Admin/Views/AdminDashBoard/DeliveryDashBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5EYXNoQm9hcmRcRGVsaXZlcnlEYXNoQm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Areas/Admin/Views/AdminDashBoard/OverviewDashBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5EYXNoQm9hcmRcT3ZlcnZpZXdEYXNoQm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Areas/Admin/Views/AdminDashBoard/RoleDashBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5EYXNoQm9hcmRcUm9sZURhc2hCb2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Areas/Manager/Views/ManagerDashBoard/ManageProductDashBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xNYW5hZ2VyRGFzaEJvYXJkXE1hbmFnZVByb2R1Y3REYXNoQm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Areas/Manager/Views/ManagerDashBoard/OverviewDashBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xNYW5hZ2VyRGFzaEJvYXJkXE92ZXJ2aWV3RGFzaEJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Areas/Manager/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Areas/Manager/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Areas/User/Views/ManageProfile/ManageProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xNYW5hZ2VQcm9maWxlXE1hbmFnZVByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Areas/User/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Areas/User/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Views/Account/Denied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Views/Home/Clothes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDbG90aGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Areas/Admin/Views/Shared/_LayoutAdminDashBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbkRhc2hCb2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-g4kk5x153n
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Areas/Manager/Views/Shared/_LayoutManagerDashBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTaGFyZWRcX0xheW91dE1hbmFnZXJEYXNoQm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-xqmxcxaheb
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Areas/User/Views/Shared/_LayoutManageAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xTaGFyZWRcX0xheW91dE1hbmFnZUFjY291bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-75g8fjqgys
+
+[C:/Users/maith/Downloads/webbanhoaBMHCSL-NewUpdates/BMHCSDL/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jd05epf5v3

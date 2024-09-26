@@ -1,0 +1,57 @@
+<ul class="navbar-nav">
+    @if (Context.Session.GetString("UserName") != null)
+    {
+        var userRole = Context.Session.GetString("UserRole"); 
+        string asp_controller =" ";
+        string asp_action ="";
+        string areaName = "";
+        switch (userRole?.ToLower())
+        {
+            case "user_role":
+                areaName = "User";
+                asp_controller = "ManageProfile";
+                asp_action = "ManageProfile";
+                break;
+            case "manager_role":
+                areaName = "Manager";
+                asp_controller = "ManagerDashBoard";
+                asp_action = "ManageProductDashBoard";
+                break;
+            case "admin_role":
+                areaName = "Admin";
+                asp_controller = "AdminDashBoard";
+                asp_action = "OverviewDashBoard";
+                break;
+            default:
+                areaName = "";
+                asp_controller = "Home";
+                asp_action = "Index";
+                break;
+        }
+
+
+        <div class="login-on">
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="@areaName" asp-controller="@asp_controller" asp-action="@asp_action"
+                   title="Manage">Hello, @Context.Session.GetString("UserName")</a>
+                <p>UserRole: @userRole</p>
+                <a href="#"><i class="fa-regular fa-user"></i></a>
+            </li>
+            <li class="nav-item">
+                <form asp-controller="Account" asp-action="Logout" method="post" class="form-inline">
+                    <button type="submit" class="btn btn-link">Logout</button>
+                </form>
+            </li>
+        </div>
+    }
+    else
+    {
+        <div class="login">
+            <a href="#"><i class="fa-regular fa-user"></i></a>
+            <p><a asp-controller="Account" asp-action="Login">Login</a></p>
+            <p>/</p>
+            <p><a asp-controller="Account" asp-action="Register">Register</a></p>
+        </div>
+    }
+</ul>
+

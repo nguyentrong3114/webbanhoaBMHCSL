@@ -1,0 +1,33 @@
+@model IEnumerable<ProductsViewModel>
+
+@{
+    ViewData["Title"] = "Clothes";
+}
+
+<div class="new-products">
+    <div class="title-products">
+        <h2>Hot Products</h2>
+        <i class="fa-solid fa-fire fa-lg"></i>
+        <i class="fa-solid fa-fire fa-lg"></i>
+        <i class="fa-solid fa-fire fa-lg"></i>
+    </div>
+    <div class="list-product">
+        @foreach (var product in Model)
+        {
+            <div class="product">
+                <div class="product-image">
+                    <img src="@product.ImageUrl" alt="@product.TenHoa">
+                </div>
+                <p>@product.MaHoa</p>
+                <p>@product.TenHoa</p>
+                <p>@product.Price.ToString("C") VNĐ</p>
+                <button>Buy Now</button>
+            </div>
+        }
+    </div>
+    <form method="post">
+        <div class="btn">
+            <button>See More !</button>
+        </div>
+    </form>
+</div>

@@ -3,7 +3,44 @@
 @{
     ViewData["Title"] = "Clothes";
 }
+<style>
+    
+        .box {
+            height: 30px;
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 20px;
+            cursor: pointer;
+            padding: 10px 20px;
+            background: #FFF;
+            border-radius: 30px;
+            align-items: center;
+            
+        }
 
+        .box:hover input {
+            width: 400px;
+        }
+
+        .box input {
+            width: 0;
+            outline: none;
+            border: none;
+            font-weight: 500;
+            transition: 0.8s;
+            background: transparent;
+        }
+
+        .box a .fas {
+            color: #1daf font-size: 18px;
+        }
+</style>
+<div class="box m-1">
+    <input type="text" placeholder="Search...">
+    <a href="#">
+        <i class="fas fa-search"></i>
+    </a>
+</div>
 <div class="new-products">
     <div class="title-products">
         <h2>Hot Products</h2>
@@ -11,22 +48,34 @@
         <i class="fa-solid fa-fire fa-lg"></i>
         <i class="fa-solid fa-fire fa-lg"></i>
     </div>
+
     <div class="list-product">
-        @foreach (var product in Model)
+        @if (Model != null && Model.Any())
         {
-            <div class="product">
-                <div class="product-image">
-                    <img src="@product.ImageUrl" alt="@product.TenHoa">
+            foreach (var product in Model)
+            {
+                <div class="product">
+                    <div class="product-image">
+                        <img src="@product.ImageUrl" alt="@product.TenHoa" />
+                    </div>
+                    <p><strong>Mã sản phẩm:</strong> @product.MaHoa</p>
+                    <p><strong>Tên sản phẩm:</strong> @product.TenHoa</p>
+                    <p><strong>Giá:</strong> @product.Price.ToString("C", System.Globalization.CultureInfo.CurrentCulture) VNĐ
+                    </p>
+                    <form method="post" action="@Url.Action("BuyNow", "Home")">
+                        <input type="hidden" name="productId" value="@product.MaHoa" />
+                        <button type="submit" class="btn-buy">Buy Now</button>
+                    </form>
                 </div>
-                <p>@product.MaHoa</p>
-                <p>@product.TenHoa</p>
-                <p>@product.Price.ToString("C") VNĐ</p>
-                <button>Buy Now</button>
-            </div>
+            }
+        }
+        else
+        {
+            <p>Không có sản phẩm nào.</p>
         }
     </div>
     <form method="post">
-        <div class="btn">
+        <div class="btn ">
             <button>See More !</button>
         </div>
     </form>

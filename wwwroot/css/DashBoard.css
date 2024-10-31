@@ -1,30 +1,42 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-.dashboard-container{
-    height: 900px;
+
+.dashboard-container {
+    height: 100%;
     display: flex;
 }
-.dashboard-navbar{
+
+.dashboard-navbar {
     display: block;
     left: 0;
     width: 15%;
     height: 100%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.dashboard-navbar .title{
-    display: flex;  
+
+.dashboard-navbar .title {
+    display: flex;
     height: 100px;
     justify-content: center;
     align-items: center;
+    list-style: none;
 }
-.dashboard-navbar .menu-parent{
+.dashboard-navbar .title a {
+    text-decoration: none;
+    list-style: none;
+    color: black,
+}
+
+
+.dashboard-navbar .menu-parent {
     padding: 20px;
 }
-.dashboard-navbar .btn{
+
+.dashboard-navbar .btn {
     display: flex;
     border: none;
     background-color: transparent;
@@ -34,45 +46,55 @@
     cursor: pointer;
     font-size: 18px;
 }
-.dashboard-navbar .btn i{
+
+.dashboard-navbar .btn i {
     margin-right: 30px;
     width: 15px;
 }
-.dashboard-navbar .menu-title{
+
+.dashboard-navbar .menu-title {
     padding-bottom: 20px;
 }
-.list-menu .active{
+
+.list-menu .active {
     color: #0F62FE;
     background-color: rgba(0, 191, 255, 0.2);
-    border-left:3px solid blue;
+    border-left: 3px solid blue;
 }
-.dashboard-navbar hr{
+
+.dashboard-navbar hr {
     width: 80%;
     margin: auto;
 }
+
 /* MAINDASHBOARD */
-.dashboard-main{
+.dashboard-main {
     height: 100%;
     width: 85%;
 }
-.header-dashboard-main{
+
+.header-dashboard-main {
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header-dashboard-main .title{
+
+.header-dashboard-main .title {
     padding-left: 30px;
-} 
-.component-user-search{
+}
+
+.component-user-search {
     justify-content: center;
     align-items: center;
     display: flex;
 }
- .input-place{
+
+.input-place {
     position: relative;
     display: inline-block;
 }
+
 .component-user-search .search {
     width: 150px;
     padding: 10px 40px 10px 10px;
@@ -81,68 +103,81 @@
     border-radius: 5px;
     transition: width 0.4s ease;
 }
+
 .component-user-search .search:focus {
-    width: 300px; 
+    width: 300px;
     border-color: #0F62FE;
     outline: none;
 }
+
 .search-icon {
     position: absolute;
     top: 50%;
     right: -12px;
     transform: translateY(-50%);
-    font-size: 20px; 
+    font-size: 20px;
     color: #aaa;
     cursor: pointer;
 }
-.component-user-search input{
+
+.component-user-search input {
     height: 30px;
     width: 200px;
 }
-.component-user-search  .noti {
+
+.component-user-search .noti {
     position: relative;
     display: inline-block;
     cursor: pointer;
 }
+
 .component-user-search .badge {
     position: absolute;
-    top: -10px; 
-    right: 5px; 
-    background-color: red; 
-    color: white; 
+    top: -10px;
+    right: 5px;
+    background-color: red;
+    color: white;
     border-radius: 50%;
-    padding: 2px 6px; 
+    padding: 2px 6px;
     font-size: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.component-user-search i{
+
+.component-user-search i {
     padding: 0 20px;
 }
-.dashboard-container .user{
+
+.dashboard-container .user {
     padding: 14px 0px;
     border-radius: 41px;
-    border: 2px solid #0F62FE;;
+    border: 2px solid #0F62FE;
+    height: 100%;
     cursor: pointer;
 }
-.top-choose-time{
+
+.top-choose-time {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
-.list-choose-time{
+
+.list-choose-time {
     display: flex;
 }
-.list-choose-time .choose-time{
+
+.list-choose-time .choose-time {
     padding: 10px 15px;
     margin: 0 5px;
 }
-.list-choose-time .active{
+
+.list-choose-time .active {
     color: #0F62FE;
-    border-bottom:2px solid #0F62FE;
+    border-bottom: 2px solid #0F62FE;
 }
+
 .combobox-input {
     width: 100%;
     padding: 10px;
@@ -156,6 +191,7 @@
     position: relative;
     width: 200px;
 }
+
 .combobox-list {
     position: absolute;
     top: 100%;
@@ -182,55 +218,69 @@
 .combobox-list.active {
     display: block;
 }
-.body-static{
+
+.body-static {
     width: 100%;
 }
-.list-static{
+
+.list-static {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.list-static .static{
+
+.list-static .static {
     padding: 20px 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px ;
+    width: 300px;
 }
-.static .title-static{
+
+.static .title-static {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-.static .title-static h3{
+
+.static .title-static h3 {
     padding-left: 10px;
 }
-.static .data-static{
+
+.static .data-static {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.static .data-static p{
-    font-size: 30px ;
+
+.static .data-static p {
+    font-size: 30px;
 }
-.static .data-static .compare-static p{
+
+.static .data-static .compare-static p {
     font-size: 18px !important;
 }
-.static .data-static .compare-static .persent{
+
+.static .data-static .compare-static .persent {
     margin: 2px;
     display: flex;
     padding-left: 3px;
 }
-.profit{
+
+.profit {
     color: green;
 }
-.loss{
-    color:red;
+
+.loss {
+    color: red;
 }
-.static .data-static .compare-static .persent p{
+
+.static .data-static .compare-static .persent p {
     padding-left: 3px;
 }
+
 .btn {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 /*Quản lí khách hàng*/
 .c {
     display: flex;
@@ -240,6 +290,7 @@
 input[type="checkbox"] {
     margin-right: 20px;
 }
+
 .table-wrapper {
     display: flex;
     align-items: flex-start;
@@ -250,12 +301,14 @@ input[type="checkbox"] {
     flex-direction: column;
     margin-right: 10px;
 }
+
 table {
     border-collapse: collapse;
     width: auto;
 }
 
-th, td {
+th,
+td {
     padding: 10px;
     border: 1px solid #ddd;
     text-align: left;
@@ -264,28 +317,33 @@ th, td {
 th {
     background-color: #f4f4f4;
 }
+
 /*QLKH*/
-.body-static .action{
+.body-static .action {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.body-static .action button{
+
+.body-static .action button {
     width: 100px;
     height: 2.4rem;
     margin: 10px;
     border-radius: 10px;
     cursor: pointer;
 }
-.body-static .table-user{
+
+.body-static .table-user {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.body-static .table-user table{
+
+.body-static .table-user table {
     width: 86%;
 }
+
 .pagination {
     display: flex;
     justify-content: center;
@@ -328,7 +386,7 @@ th {
     border-radius: 3px;
     z-index: 1000;
     padding: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .dropdown-menu a {
@@ -340,4 +398,44 @@ th {
 
 .dropdown-menu a:hover {
     background-color: #f0f0f0;
+}
+
+.Product {
+    padding: 20px;
+}
+
+.container-product {
+    padding-bottom: 20px;
+}
+
+.container-product .form-group {
+    padding-bottom: 20px;
+}
+
+.container-product .form-group .label {
+    width: 200px;
+}
+
+.container-product .form-group input {
+    width: 500px;
+}
+
+.flex {
+    display: flex;
+}
+.left-flex{
+    padding: 5px;
+}
+.right-flex{
+    padding: 5px;
+}
+.Role-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.Role-container h1{
+    padding-bottom: 20px;
 }

@@ -26,7 +26,8 @@
                 <div class="input-group">
                     <input asp-for="userId" id="userId-input" placeholder="Tên Đăng Nhập" class="form-control" />
                     <span asp-validation-for="userId" class="text-danger"></span>
-                    <input asp-for="Password" id="password-input" placeholder="Mật Khẩu" type="password" class="form-control" />
+                    <input asp-for="Password" id="password-input" placeholder="Mật Khẩu" type="password"
+                        class="form-control" />
                     <span asp-validation-for="Password" class="text-danger"></span>
                 </div>
 
@@ -36,6 +37,7 @@
                 </div>
 
                 @if (!ViewData.ModelState.IsValid)
+
                 {
                     <div class="alert alert-danger">
                         @Html.ValidationSummary(false, "", new { @class = "text-danger" })
@@ -48,7 +50,7 @@
 
                 <p><a href="#">Quên mật khẩu?</a></p>
                 <p>Chưa có tài khoản? <a asp-controller="Account" asp-action="Register">Đăng Ký Ngay</a></p>
-
+                <p><a asp-controller="Account" asp-action="LoginAnotherDB">Đăng nhập vs cổng khác</a></p>
                 <div class="social-icon">
                     <i class="fa-brands fa-google fa-lg"></i>
                     <i class="fa-brands fa-facebook fa-lg"></i>

@@ -2,10 +2,15 @@ using System.ComponentModel.DataAnnotations;
 
 namespace BMHCSDL.Models
 {
-    public class RegisterViewModel 
+    public class RegisterViewModel
     {
         [Required(ErrorMessage = "Username không được để trống.")]
-        public required string UserId { get; set; }
+        public required string UserName { get; set; }
+        [Required(ErrorMessage = "Họ Tên không được để trống.")]
+        public required string FullName { get; set; }
+        [Required(ErrorMessage = "Email không được để trống.")]
+        public required string email { get; set; }
+
 
         [Required(ErrorMessage = "Mật khẩu không được để trống.")]
         [DataType(DataType.Password)]
@@ -14,6 +19,6 @@ namespace BMHCSDL.Models
         [DataType(DataType.Password)]
         [Compare("Password", ErrorMessage = "Mật khẩu và xác nhận mật khẩu không khớp.")]
         public required string ConfirmPassword { get; set; }
-    }   
+    }
 
 }

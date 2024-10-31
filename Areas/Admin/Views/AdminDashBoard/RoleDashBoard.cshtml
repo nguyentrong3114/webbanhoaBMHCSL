@@ -1,153 +1,88 @@
 @{
-    ViewData["Title"] = "RoleDashBoard";
+    ViewData["Title"] = "Role Dashboard";
 }
-<div class="dashboard-main">
-    <div class="header-dashboard-main">
-        <div class="title">
-            <h2>Dashboard</h2>
-        </div>
-        <div class="component-user-search">
-            <div class="input-place">
-                <input type="text" class="search" placeholder="Tìm Kiếm">
-                <i class="fa-solid fa-magnifying-glass search-icon"></i>
-            </div>
-            <div class="noti">
-                <i class="fa-solid fa-bell fa-lg"></i>
-                <div class="badge">3</div>
-            </div>
-            <div class="user">
-                <i class="fa-solid fa-user fa-lg"></i>
-            </div>
-        </div>
-    </div>
-    <hr>
-    <div class="nav-dashboard-main">
-        <div class="top-choose-time">
-            <div class="list-choose-time">
-                <div class="choose-time active">
-                    <p>Last 24 hour</p>
-                </div>
-                <div class="choose-time">
-                    <p>Last weeks</p>
-                </div>
-                <div class="choose-time">
-                    <p>Last month</p>
-                </div>
-                <div class="choose-time">
-                    <p>Last year</p>
-                </div>
-            </div>
-            <div class="combobox-list-choose">
-                <input type="input" class="combobox-input" placeholder="Select ">
-                <div class="combobox-list">
-                    <div>Option 1</div>
-                    <div>Option 2</div>
-                    <div>Option 3</div>
-                    <div>Option 4</div>
-                </div>
-            </div>
-        </div>
-        <div class="body-static">
-            <div class="list-static">
-                <div class="static">
-                    <div class="title-static">
-                        <i class="fa-solid fa-globe"></i>
-                        <h3>Total Customer</h3>
-                    </div>
-                    <div class="data-static">
-                        <p>50.000</p>
-                        <div class="compare-static">
-                            <div class="persent profit">
-                                <i class="fa-solid fa-arrow-trend-up"></i>
-                                <p>15%</p>
-                            </div>
-                            <p>vs last 7 days</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="static">
-                    <div class="title-static">
-                        <i class="fa-solid fa-people-group"></i>
-                        <h3>Active</h3>
-                    </div>
-                    <div class="data-static">
-                        <p>7.000</p>
-                        <div class="compare-static">
-                            <div class="persent profit">
-                                <i class="fa-solid fa-arrow-trend-up"></i>
-                                <p>15%</p>
-                            </div>
-                            <p>vs last 7 days</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="action">
-                <button>Mở Khóa</button>
-                <button>Khóa</button>
-                <button>Xóa</button>
-                <button>Làm Mới</button>
-            </div>
-            <div class="table-user">
-                <table border="1">
-                    <thead>
-                        <tr>
-                            <th></th>
-                            <th>MAKH</th>
-                            <th>Họ Tên</th>
-                            <th>Email</th>
-                            <th>Số Điện Thoại</th>
-                            <th>Địa Chỉ</th>
-                            <th>Giới Tính</th>
-                            <th>Ngày Sinh</th>
-                            <th>Ngày Đăng Kí</th>
-                            <th>Trạng Thái</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><input type="checkbox"></td>
-                            <td>1</td>
-                            <td class="editable">Nguyễn Văn A</td>
-                            <td class="editable">vana@example.com</td>
-                            <td class="editable">0944961319</td>
-                            <td class="editable">Hậu Nghĩa</td>
-                            <td class="editable">Nam</td>
-                            <td class="editable">19/08/2004</td>
-                            <td class="editable">20/9/2022</td>
-                            <td>Mở Khóa</td>
-                        </tr>
-                        <tr>
-                            <td><input type="checkbox"></td>
-                            <td>2</td>
-                            <td>Trần Thị B</td>
-                            <td>thib@example.com</td>
-                            <td>0944961319</td>
-                            <td>Hậu Nghĩa</td>
-                            <td>Nam</td>
-                            <td>19/08/2004</td>
-                            <td>20/9/2022</td>
-                            <td>Mở Khóa</td>
-                        </tr>
-                    </tbody>
-                </table>
+@model List<User>
+<style>
+    .btn-refresh {
+        padding: 5px;
+    }
+    .Role-container {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding-top: 20px;
+    }
 
-            </div>
-        </div>
-        <div class="pagination">
-            <a href="#" class="prev">«</a>
-            <a href="#" class="page active">1</a>
-            <a href="#" class="page">2</a>
-            <a href="#" class="page">3</a>
-            <a href="#" class="page">4</a>
-            <a href="#" class="page">5</a>
-            <a href="#" class="dots">...</a>
-            <div class="dropdown-menu">
-                <!-- Các số trang sẽ được tạo động bằng JavaScript -->
-            </div>
-            <a href="#" class="page">99</a>
-            <a href="#" class="next">»</a>
-        </div>
+    h1 {
+        color: #333;
+        text-align: center;
+    }
 
-    </div>
+    .btn-from {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .btn1 {
+
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        font-size: 14px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    table {
+        width: 80%;
+    th,
+    td {
+        border: 1px solid #dddddd;
+        text-align: left;
+    }
+</style>
+<div class="Role-container">
+    <h1 class="pt-3">Role Dashboard</h1>
+    <form asp-area="Admin" asp-controller="AdminDashBoard" asp-action="RoleDashBoard" method="post" class="btn-from">
+        <button type="submit" class="btn">
+            <p class="btn-refresh">Refresh</p>
+        </button>
+    </form>
+    @if (ViewBag.Message != null)
+    {
+        <div class="alert alert-info">
+            @ViewBag.Message
+        </div>
+    }
+    <table>
+        <thead>
+            <tr>
+                <th>MAUSER</th>
+                <th>Username</th>
+                <th>Tên Người Dùng</th>
+                <th>Hành Động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.UserId</td>
+                    <td>@user.Username</td>
+                    <td>@user.FullName</td>
+                    <td>
+                        <form asp-action="LockAccount" method="post">
+                            <input type="hidden" name="Username" value="@user.Username" />
+                            <button type="submit" class="btn1 btn-warning">Khóa Tài Khoản</button>
+                        </form>
+                        <form asp-action="UnlockAccount" method="post">
+                            <input type="hidden" name="Username" value="@user.Username" />
+                            <button type="submit" class="btn1 btn-success">Mở Khóa Tài Khoản</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>

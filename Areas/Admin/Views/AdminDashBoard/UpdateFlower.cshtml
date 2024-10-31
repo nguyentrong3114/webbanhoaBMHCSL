@@ -1,0 +1,76 @@
+@{
+    ViewData["Title"] = "Cập Nhật Sản Phẩm";
+}
+@model ManageProduct
+@using BMHCSDL.Data
+@using System.Globalization
+
+<div class="container-details-product">
+    <h2>Cập Nhật Sản Phẩm</h2>
+    <div class="product">
+        <div class="product-image">
+            <img src="@Model.ImageUrl" alt="@Model.TenHoa" />
+        </div>
+        <div class="product-details">
+            <form method="post" action="@Url.Action("UpdateFlower", "AdminDashBoard", new { productId = Model.MaHoa })">
+                <input type="hidden" name="productId" value="@Model.MaHoa" />
+                
+                <div class="form-group">
+                    <label for="MaHoa">Mã sản phẩm:</label>
+                    <input type="text" id="MaHoa" name="MaHoa" value="@Model.MaHoa" class="form-control" required readonly />
+                </div>
+
+                <div class="form-group">
+                    <label for="TenHoa">Tên sản phẩm:</label>
+                    <input type="text" id="TenHoa" name="TenHoa" value="@Model.TenHoa" class="form-control" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="MoTa">Mô tả:</label>
+                    <input type="text" id="MoTa" name="MoTa" value="@Model.MoTa" class="form-control" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="DanhMuc">Tên danh mục:</label>
+                    <input type="text" id="DanhMuc" name="DanhMuc" value="@Model.DanhMuc" class="form-control"
+                        required />
+                </div>
+
+                <div class="form-group">
+                    <label for="SoLuong">Số lượng:</label>
+                    <input type="number" id="SoLuong" name="SoLuong" value="@Model.SoLuong" class="form-control"
+                        required min="1" />
+                </div>
+
+                <div class="form-group">
+                    <label for="Price">Giá:</label>
+                    <input type="number" id="Price" name="Price" value="@Model.Price" class="form-control" required
+                        min="0" step="0.01" />
+                </div>
+
+                <div class="form-group">
+                    <label for="HinhAnh">Hình ảnh:</label>
+                    <input type="url" id="ImageUrl" name="ImageUrl" value="@Model.ImageUrl" class="form-control" required
+                        placeholder="URL hình ảnh sản phẩm" />
+                </div>
+
+                <div class="form-group">
+                    <label for="TrangThai">Trạng thái:</label>
+                    <select id="TrangThai" name="TrangThai" class="form-control" required>
+                        <option value="In Stock">Còn hàng</option>
+                        <option value="Sold out">Hết hàng</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Cập Nhật</button>
+            </form>
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success">
+                    @TempData["SuccessMessage"]
+                </div>
+            }
+        </div>
+
+    </div>
+</div>
+</div>

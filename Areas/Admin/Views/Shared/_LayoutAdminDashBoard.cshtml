@@ -9,14 +9,18 @@
     <link href="~/lib/sb-admin-2/css/sb-admin-2.min.css" rel="stylesheet">
     <link href="~/lib/font-awesome/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="~/BHMCSDL.styles.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/DashBoard.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/DashBoard.css" asp-append-version="true" />   
 </head>
-
+<style>
+    .dashboard-navbar{
+        height: 100%;
+    }
+</style>
 <body>
     <div class="dashboard-container">
         <div class="dashboard-navbar">
             <div class="title">
-                <h2>CLOTHING</h2>
+                <h2><a href="/Home/Index">CLOTHING</a></h2>
             </div>
             <div class="menu-parent">
                 <div class="menu-title">
@@ -44,13 +48,6 @@
                             <p>Delivery</p>
                         </button>
                     </form>
-                    <form asp-area="Admin" asp-controller="AdminDashBoard" asp-action="CustomerDashBoard" method="post"
-                        class="btn">
-                        <button type="submit" class="btn">
-                            <i class="fa-solid fa-people-group"></i>
-                            <p>Customer</p>
-                        </button>
-                    </form>
                     <form asp-area="Admin" asp-controller="AdminDashBoard" asp-action="ProductDashBoard" method="post"
                         class="btn">
                         <button type="submit" class="btn">
@@ -69,7 +66,7 @@
                         class="btn">
                         <button type="submit" class="btn">
                             <i class="fa-solid fa-user"></i>
-                            <p>Role</p>
+                            <p>Customer</p>
                         </button>
                     </form>
                     <form asp-area="Admin" asp-controller="AdminDashBoard" asp-action="ProductDashBoard" method="post"

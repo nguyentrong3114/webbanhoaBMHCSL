@@ -9,28 +9,54 @@
     <link href="~/lib/sb-admin-2/css/sb-admin-2.min.css" rel="stylesheet">
     <link href="~/lib/font-awesome/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="~/BMHCSDL.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/ManageAccount.css" asp-append-version="true" />
 </head>
+<style>
+    a {
+        list-style: none;
+        direction: none;
+        text-decoration: none;
+    }
+</style>
 
 <body>
+    <div class="home-container">
+        <div class="header">
+            <div class="logo">
+                <h1><a href="/Home/Index">FLOWERS </a></h1>
+            </div>
+            <div class="navbar">
+                <p><a asp-area="" asp-controller="Home" asp-action="Index" class="nav">Home</a></p>
+                <p><a asp-area="" asp-controller="Home" asp-action="About" class="nav">About</a></p>
+                <div class=" nav dropdown">
+                    <p class="dropbtn"><a asp-area="" asp-controller="Home" asp-action="Clothes">Flower</a></p>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Hot</a></li>
+                        <li><a href="#">Best Seller</a></li>
+                        <li><a href="#">Free Ship</a></li>
+                    </ul>
+                </div>
+                <p><a href="/Home/Index" class="nav">Contact</a></p>
+                <p><a href="/Home/Index" class="nav">Help</a></p>
+            </div>
+        </div>
+    </div>
     <div class="profile-container">
         <div class="profile-navbar">
-            <div class="title">
-                <h2>CLOTHING</h2>
-            </div>
             <div class="menu-parent">
                 <div class="menu-title">
                     <h3>MENU</h3>
                 </div>
                 <div class="list-menu" id="list-menu">
-                    <div class="btn active">
+                    <a class="btn" asp-area="User" asp-controller="ManageProfile" asp-action="ManageProfile">
                         <i class="fa-solid fa-grip"></i>
                         <p>Overview</p>
-                    </div>
-                    <div class="btn">
+                    </a>
+                    <a class="btn" asp-area="User" asp-controller="ManageProfile" asp-action="ChangePassword">
                         <i class="fa-solid fa-lock"></i>
                         <p>Password</p>
-                    </div>
+                    </a>
                     <div class="btn">
                         <i class="fa-solid fa-clock-rotate-left"></i>
                         <p>History Trade</p>

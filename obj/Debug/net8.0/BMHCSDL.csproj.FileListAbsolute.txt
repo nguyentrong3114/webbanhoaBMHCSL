@@ -153,6 +153,7 @@ C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\obj\Debug\net8.0\BMH
 C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\obj\Debug\net8.0\BMHCSDL.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\obj\Debug\net8.0\BMHCSDL.RazorAssemblyInfo.cache
 C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\obj\Debug\net8.0\BMHCSDL.RazorAssemblyInfo.cs
+C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\obj\Debug\net8.0\BMHCSDL.sourcelink.json
 C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\obj\Debug\net8.0\staticwebassets\msbuild.BMHCSDL.Microsoft.AspNetCore.StaticWebAssets.props
@@ -161,6 +162,7 @@ C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\obj\Debug\net8.0\sta
 C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BMHCSDL.props
 C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_LayoutAdminDashBoard.cshtml.rz.scp.css
+C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\obj\Debug\net8.0\scopedcss\Areas\Manager\Views\Shared\_LayoutManagerDashBoard.cshtml.rz.scp.css
 C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\obj\Debug\net8.0\scopedcss\Areas\User\Views\Shared\_LayoutManageAccount.cshtml.rz.scp.css
 C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\obj\Debug\net8.0\scopedcss\bundle\BMHCSDL.styles.css
@@ -171,4 +173,9 @@ C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\obj\Debug\net8.0\ref
 C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\obj\Debug\net8.0\BMHCSDL.pdb
 C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\obj\Debug\net8.0\BMHCSDL.genruntimeconfig.cache
 C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\obj\Debug\net8.0\ref\BMHCSDL.dll
-C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\obj\Debug\net8.0\scopedcss\Areas\Manager\Views\Shared\_LayoutManagerDashBoard.cshtml.rz.scp.css
+C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\maith\Downloads\webbanhoaBMHCSL-NewUpdates\BMHCSDL\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

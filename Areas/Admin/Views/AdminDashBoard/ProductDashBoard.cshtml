@@ -1,0 +1,118 @@
+@{
+    ViewData["Title"] = "ProductDashBoard";
+}
+@model IEnumerable<ManageProduct>
+<link href="~/lib/font-awesome/css/all.min.css" rel="stylesheet">
+<div class="Product">
+    <div class="container-product">
+        <h2>Thêm Sản Phẩm</h2>
+        <form method="post" asp-area="Admin" asp-controller="AdminDashBoard" asp-action="ProductDashBoard">
+            <div class="flex">
+                <div class="left-flex">
+                    <div class="form-group ">
+                        <div class="label">
+                            <label for="MaHoa">Mã Hoa:</label>
+                        </div>
+                        <input type="text" class="form-control btn btn-outline-info" id="MaHoa" name="MaHoa" required>
+                    </div>
+                    <div class="form-group">
+                        <div class="label">
+                            <label for="DanhMuc">Mã Danh Mục</label>
+                        </div>
+                        <input type="text" class="form-control" id="DanhMuc" name="DanhMuc" required>
+                    </div>
+                    <div class="form-group">
+                        <div class="label">
+                            <label for="imageUrl">Hình ảnh (URL):</label>
+                        </div>
+                        <input type="url" class="form-control" id="imageUrl" name="imageUrl" required>
+                    </div>
+                    <div class="form-group">
+                        <div class="label">
+                            <label for="Price">Giá:</label>
+                        </div>
+                        <input type="number" class="form-control" id="Price" name="Price" required>
+                    </div>
+                </div>
+
+                <div class="right-flex">
+                    <div class="form-group">
+                        <div class="label">
+                            <label for="TenHoa">Tên Hoa</label>
+                        </div>
+                        <input type="text" class="form-control" id="TenHoa" name="TenHoa" required>
+                    </div>
+                    <div class="form-group">
+                        <div class="combobox-list-choose">
+                            <input type="input" class="combobox-input" placeholder="Select ">
+                            <div class="combobox-list">
+                                <div>In Stock</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="label">
+                            <label for="MoTa">Mô Tả</label>
+                        </div>
+                        <input type="text" class="form-control" id="MoTa" name="MoTa" required>
+                    </div>
+                    <div class="form-group">
+                        <div class="label">
+                            <label for="SoLuong">SoLuong</label>
+                        </div>
+                        <input type="number" class="form-control" id="SoLuong" name="SoLuong" step="1" required>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Thêm Sản Phẩm</button>
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success">
+                    @TempData["SuccessMessage"]
+                </div>
+            }
+        </form>
+    </div>
+    <div class="container">
+        <h2>Danh Sách Sản Phẩm</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Mã sản phẩm</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Hình ảnh</th>
+                    <th>Giá</th>
+                    <th>Hành động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    @foreach (var product in Model)
+                    {
+                        <tr>
+                            <td>@product.MaHoa</td>
+                            <td>@product.TenHoa</td>
+                            <td>@product.ImageUrl</td>
+                            <td>@product.Price.ToString("C", System.Globalization.CultureInfo.CurrentCulture) VNĐ</td>
+                            <td>
+                                <a href="@Url.Action("DetailsFlower", "Home", new { productId = product.MaHoa })"
+                                    class="btn btn-info">Xem Chi Tiết</a> ||
+                                <a href="@Url.Action("DeleteFlower", "AdminDashBoard", new { productId = product.MaHoa })"
+                                    class="btn btn-info">Xóa</a> ||
+                                <a href="@Url.Action("UpdateFlower", "AdminDashBoard", new { productId = product.MaHoa })"
+                                    class="btn btn-info">Cập Nhật</a>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="4">Không có sản phẩm nào được tìm thấy.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -15,7 +15,11 @@
     <link rel="stylesheet" href="~/css/Account.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
-
+<style>
+    .container form{
+        height: 600px;
+    } 
+</style>
 
 <body>
     <div class="container">
@@ -26,14 +30,17 @@
                     <p>Hãy tạo tài khoản mới</p>
                 </div>
                 <div class="input-group">
-                    <input asp-for="UserId" placeholder="Tên Đăng Nhập" required />
-                    <span asp-validation-for="UserId" class="text-danger"></span>
+                    <input asp-for="UserName" placeholder="Tên Đăng Nhập" required />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                    <input asp-for="FullName" placeholder="Họ Tên" required />
+                    <span asp-validation-for="FullName" class="text-danger"></span>
+                    <input asp-for="email" placeholder="Email" required />
+                    <span asp-validation-for="email" class="text-danger"></span>
                     <input asp-for="Password" placeholder="Mật Khẩu" type="password" required />
                     <p asp-validation-for="Password" class="text-danger"></p>
                     <input asp-for="ConfirmPassword" placeholder="Xác Nhận Mật Khẩu" type="password" required />
                     <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                     @if (ViewBag.Message != null)
-
 
                     {
                         <div class="alert alert-success">

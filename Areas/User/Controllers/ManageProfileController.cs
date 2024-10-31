@@ -3,14 +3,19 @@ using BMHCSDL.Filters;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MyMvcApi.Areas.User.Controllers{
-[Area("User")]
-[AuthorizeUser]
-public class ManageProfileController : Controller
+namespace MyMvcApi.Areas.User.Controllers
 {
-    public IActionResult ManageProfile()
+    [Area("User")]
+    [AuthorizeUser]
+    public class ManageProfileController : Controller
     {
-        return View();
+        public IActionResult ManageProfile()
+        {
+            return View();
+        }
+        public IActionResult ChangePassword()
+        {
+            return View();
+        }
     }
-}
 }

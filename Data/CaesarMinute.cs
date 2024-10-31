@@ -1,6 +1,6 @@
 namespace BMHCSDL.Data;
 
-    class CaesarMinute
+class CaesarMinute
 {
     public static string CaesarEncrypt(string input, int shift)
     {

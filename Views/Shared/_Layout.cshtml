@@ -19,17 +19,17 @@
     <div class="home-container">
         <div class="header">
             <div class="logo">
-                <h1><a href="/Home/Index">CLOTHING</a></h1>
+                <h1><a href="/Home/Index">FLOWERS   </a></h1>
             </div>
             <div class="navbar">
-                <p><a asp-controller="Home" asp-action="Index" class="nav">Home</a></p>
-                <p><a href="" class="nav">About</a></p>
+                <p><a asp-area="" asp-controller="Home" asp-action="Index" class="nav">Home</a></p>
+                <p><a asp-area="" asp-controller="Home" asp-action="About" class="nav">About</a></p>
                 <div class=" nav dropdown">
-                    <p class="dropbtn"><a asp-controller="Home" asp-action="Clothes">Clothes</a></p>
+                    <p class="dropbtn"><a asp-controller="Home" asp-action="Clothes">Flower</a></p>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Quần</a></li>
-                        <li><a href="#">Áo</a></li>
-                        <li><a href="#">Đồ trẻ em</a></li>
+                        <li><a href="#">Hot</a></li>
+                        <li><a href="#">Best Seller</a></li>
+                        <li><a href="#">Free Ship</a></li>
                     </ul>
                 </div>
                 <p><a href="" class="nav">Contact</a></p>
@@ -167,4 +167,5 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>

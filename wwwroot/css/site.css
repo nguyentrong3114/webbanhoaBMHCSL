@@ -272,3 +272,61 @@ a {
 .red{
   color: red;
 }
+.Container-Details-product{
+  height: 600px;
+  width: 90%;
+}
+.Container-Details-product .product{
+  display: flex;
+  width: 100%;
+}
+.Container-Details-product .product-image{
+  padding: 30px;
+}
+.Container-Details-product .product-details{
+  padding: 30px;
+  width: 300px;
+}
+.Container-Details-product form{
+  padding: 30px;
+}
+.Container-Details-product .product-details p{
+  padding-bottom: 20px;
+}
+.btn-info{
+  padding: 20px;
+}
+.input-place {
+  position: relative;
+  display: inline-block;
+}
+
+.component-user-search .search {
+  width: 150px;
+  padding: 10px 40px 10px 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  transition: width 0.4s ease;
+}
+
+.component-user-search .search:focus {
+  width: 300px;
+  border-color: #0F62FE;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: -12px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.component-user-search input {
+  height: 30px;
+  width: 200px;
+}

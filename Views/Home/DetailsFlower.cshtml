@@ -1,0 +1,24 @@
+@model ProductsViewModel
+@using BMHCSDL.Data
+@{
+    ViewData["Title"] = "DetailsFlower";
+}
+<div class="Container-Details-product">
+    <div class="product">
+        <div class="product-image">
+            <img src="@Model.ImageUrl" alt="@Model.TenHoa" />
+        </div>
+        <div class="product-details">
+            <p><strong>Mã sản phẩm:</strong> @Model.MaHoa</p>
+            <p><strong>Tên sản phẩm:</strong>@Model.TenHoa)</p>
+            <p><strong>Mô Tả:</strong>@Model.MoTa</p>
+            <p><strong>Tên Danh Mục: </strong>@Model.DanhMuc</p>
+            <p><strong>Số lượng: </strong>@Model.SoLuong</p>
+            <p><strong>Giá:</strong> @Model.Price.ToString("C", System.Globalization.CultureInfo.CurrentCulture) VNĐ</p>
+        </div>
+        <form method="post" action="@Url.Action("BuyNow", "Home")">
+            <input type="hidden" name="productId" value="@Model.MaHoa" />
+            <button type="submit" class="btn-buy">Buy Now</button>
+        </form>
+    </div>
+</div>
